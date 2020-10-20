@@ -20,5 +20,16 @@ namespace Mm.BusinessLayer
         void AddCourse(params Course[] courses);
         void UpdateCourse(params Course[] courses);
         void RemoveCourse(params Course[] courses);
+
+        IList<Standard> getAllStandards();
+        Standard GetStandardByID(int id);
+        void addStandard(Standard s);
+        void updateStandard(Standard s);
+        void removeStandard(Standard s);
+        IList<Student> getAllStudents();
+        Student GetStudentByID(int id);
+        void addStudent(Student s);
+        void UpdateStudent(Student s);
+        void RemoveStudent(Student s);
     }
 }
