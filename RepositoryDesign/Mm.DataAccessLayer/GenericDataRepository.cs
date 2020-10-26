@@ -6,7 +6,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace Mm.DataAccessLayer
+namespace DataAccessLayer
 {
     public class GenericDataRepository<T> : IGenericDataRepository<T> where T : class, IEntity
     {

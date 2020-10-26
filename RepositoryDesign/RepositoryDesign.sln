@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mm.DataAccessLayer", "Mm.DataAccessLayer\Mm.DataAccessLayer.csproj", "{7653688F-D9FA-4B5F-AF50-7893E4BC1EEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "Mm.DataAccessLayer\DataAccessLayer.csproj", "{7653688F-D9FA-4B5F-AF50-7893E4BC1EEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{A0115E4D-6ED2-4E90-B211-32CA0AD9187C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mm.BusinessLayer", "Mm.BusinessLayer\Mm.BusinessLayer.csproj", "{7AADD212-F883-42AC-B199-6C77F79DA123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "Mm.BusinessLayer\BusinessLayer.csproj", "{7AADD212-F883-42AC-B199-6C77F79DA123}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{CFFC41FD-0161-48EE-BA19-EF80CBFEC96F}"
 EndProject
@@ -36,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4994CCD-CD26-42DE-A2D2-6BC59A60EABA}
 	EndGlobalSection
 EndGlobal

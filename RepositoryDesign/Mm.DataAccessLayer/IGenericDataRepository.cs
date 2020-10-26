@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Mm.DataAccessLayer
+namespace DataAccessLayer
 {
     public interface IGenericDataRepository<T> where T : class, IEntity
     {

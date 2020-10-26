@@ -1,4 +1,4 @@
-﻿namespace Mm.DataAccessLayer
+﻿namespace DataAccessLayer
 {
     using DomainModel;
     using System.Data.Entity;

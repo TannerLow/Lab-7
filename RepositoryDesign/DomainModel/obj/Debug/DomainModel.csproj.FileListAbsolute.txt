@@ -24,13 +24,13 @@ C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\DomainModel\obj\Debug\DomainMode
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll.config
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\bin\Debug\DomainModel.pdb
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.xml
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll.config
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb

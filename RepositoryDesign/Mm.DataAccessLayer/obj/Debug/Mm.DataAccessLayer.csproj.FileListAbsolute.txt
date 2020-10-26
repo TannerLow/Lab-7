@@ -40,18 +40,18 @@ C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csproj.CopyComplete
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.dll
 C:\PNgyuentransfer\cecs475fa17\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.pdb
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB.mdf
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB_log.ldf
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll.config
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.pdb
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.pdb
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll.config
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.xml
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csprojAssemblyReference.cache
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csproj.CopyComplete
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.dll
-C:\Users\Tanner\Desktop\CECS 475 labs\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.pdb
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB.mdf
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll.config
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.pdb
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.pdb
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll.config
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.csproj.CopyComplete
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.dll
+C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.pdb

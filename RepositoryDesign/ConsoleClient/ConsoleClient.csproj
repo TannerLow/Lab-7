@@ -56,9 +56,9 @@
       <Project>{a0115e4d-6ed2-4e90-b211-32ca0ad9187c}</Project>
       <Name>DomainModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Mm.BusinessLayer\Mm.BusinessLayer.csproj">
+    <ProjectReference Include="..\Mm.BusinessLayer\BusinessLayer.csproj">
       <Project>{7aadd212-f883-42ac-b199-6c77f79da123}</Project>
-      <Name>Mm.BusinessLayer</Name>
+      <Name>BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

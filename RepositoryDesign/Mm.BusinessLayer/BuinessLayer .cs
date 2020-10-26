@@ -1,8 +1,8 @@
 ﻿using DomainModel;
-using Mm.DataAccessLayer;
+using DataAccessLayer;
 using System.Collections.Generic;
 
-namespace Mm.BusinessLayer
+namespace BusinessLayer
 {
     public class BuinessLayer : IBusinessLayer
     {
@@ -13,16 +13,12 @@ namespace Mm.BusinessLayer
         {
             _teacherRepository = new TeacherRepository();
             _courseRepository = new CourseRepository();
-            _standardRepository = new StandardRepository();
-            _studentRepository = new StudentRepository();
         }
 
         public BuinessLayer(ITeacherRepository teacherRepository, ICourseRepository courseRepository)
         {
             _teacherRepository = teacherRepository;
             _courseRepository = courseRepository;
-            _standardRepository = new StandardRepository();
-            _studentRepository = new StudentRepository();
         }
 
         //CRUD for teachers
@@ -101,61 +97,5 @@ namespace Mm.BusinessLayer
         {
             _courseRepository.Remove(courses);
         }
-
-        //NEED TO IMPLEMENT THESE 
-        IList<Standard> IBusinessLayer.getAllStandards()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        Standard IBusinessLayer.GetStandardByID(int id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.addStandard(Standard s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.updateStandard(Standard s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.removeStandard(Standard s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        IList<Student> IBusinessLayer.getAllStudents()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        Student IBusinessLayer.GetStudentByID(int id)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.addStudent(Student s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.UpdateStudent(Student s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        void IBusinessLayer.RemoveStudent(Student s)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        private readonly IStandardRepository _standardRepository;
-        private readonly IStudentRepository _studentRepository;
-
-        //Implement other methods
     }
 }

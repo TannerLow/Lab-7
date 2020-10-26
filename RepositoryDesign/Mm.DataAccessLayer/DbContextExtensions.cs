@@ -2,7 +2,7 @@
 using System.Data.Entity.Infrastructure;
 using System.Data.Objects;
 
-namespace Mm.DataAccessLayer
+namespace DataAccessLayer
 {
     public static class DbContextExtensions
     {
