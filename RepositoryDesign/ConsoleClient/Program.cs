@@ -234,9 +234,12 @@ namespace ConsoleClient
         /// </summary>
         public static void updateCourse()
         {
-            Menu.displaySearchOptions();
+            Menu.displaySearchOptions(true);
             int input = Validator.getOptionInput();
-            listCourses();
+            if (input < 3 && input > 0)
+                listCourses();
+            else if (input == 3)
+                listTeachers();
 
             //find course by name
             if (input == 1)
@@ -253,11 +256,12 @@ namespace ConsoleClient
                 else
                 {
                     Console.WriteLine("Course does not exist.");
-                };
+                }
             }
             //find course by id
             else if (input == 2)
             {
+
                 int id = Validator.getId();
                 Course course = businessLayer.GetCourseById(id);
                 if (course != null)
@@ -270,7 +274,44 @@ namespace ConsoleClient
                 else
                 {
                     Console.WriteLine("Course does not exist.");
-                };
+                }
+            }
+            else if (input == 3)
+            {
+                int id = Validator.getId();
+                Teacher teacher = businessLayer.GetTeacherById(id);
+                if (teacher != null)
+                {
+                    ICollection<Course> courses = teacher.Courses;
+                    foreach (Course course in courses) {
+                        Console.WriteLine("Course ID: {0}, Name: {1}", course.CourseId, course.CourseName);
+                    }
+
+                    if (courses.Count > 0)
+                    {
+                        int id1 = Validator.getId();
+                        Course course1 = businessLayer.GetCourseById(id1);
+                        if (course1 != null)
+                        {
+                            Console.WriteLine("Change this course's name to: ");
+                            course1.CourseName = Console.ReadLine();
+                            course1.EntityState = EntityState.Modified;
+                            businessLayer.UpdateCourse(course1);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Course does not exist.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Teacher has no courses.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Teacher does not exist.");
+                }
             }
         }
 

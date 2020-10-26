@@ -74,3 +74,23 @@ C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\ConsoleClient\obj\D
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.exe
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.exe
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.BusinessLayer.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.dll.config
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.BusinessLayer.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.dll.config
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.exe
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB.mdf
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB_log.ldf

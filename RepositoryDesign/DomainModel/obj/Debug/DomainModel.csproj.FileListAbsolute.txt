@@ -34,3 +34,12 @@ C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Deb
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
 C:\Users\Tanner\Desktop\CECS 475 labs\lab 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll.config
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb

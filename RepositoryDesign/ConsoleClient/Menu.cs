@@ -33,10 +33,14 @@ namespace ConsoleClient
         /// <summary>
         /// Display search options: name or id.
         /// </summary>
-        public static void displaySearchOptions()
+        public static void displaySearchOptions(bool updatingCourse = false)
         {
             Console.WriteLine("[1] find by name");
             Console.WriteLine("[2] find by id");
+            if (updatingCourse)
+            {
+                Console.WriteLine("[3] find by Teacher id");
+            }
         }
     }
 }
