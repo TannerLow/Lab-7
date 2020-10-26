@@ -325,6 +325,7 @@ namespace ConsoleClient
             Course course = businessLayer.GetCourseById(id);
             if (course != null)
             {
+                
                 Console.WriteLine("{0} has been removed.", course.CourseName);
                 course.EntityState = EntityState.Deleted;
                 businessLayer.RemoveCourse(course);
