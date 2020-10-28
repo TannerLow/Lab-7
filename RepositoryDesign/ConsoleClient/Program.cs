@@ -68,6 +68,14 @@ namespace ConsoleClient
                         Menu.clearMenu();
                         listCourses();
                         break;
+                    case 10:
+                        Menu.clearMenu();
+                        addCourseToTeacher();
+                        break;
+                    case 11:
+                        Menu.clearMenu();
+                        moveCourse();
+                        break;
                 }
             } while (repeat);
         }
@@ -200,33 +208,55 @@ namespace ConsoleClient
             Console.WriteLine("Enter a course name: ");
             string courseName = Console.ReadLine();
 
-            listTeachers();
-            Console.WriteLine("Select a teacher for this course. ");
-            int id = Validator.getId();
-            Teacher teacher = businessLayer.GetTeacherById(id);
+            Teacher teacher = null;
+            Menu.includeTeacher();
+            if (Validator.yesOrNo())
+            {
+                Menu.newTeacher();
+                if (Validator.yesOrNo())
+                {
+                    addTeacher();
+                }
 
-            if (teacher != null)
+                listTeachers();
+                Console.WriteLine("Select a teacher for this course. ");
+                int id = Validator.getId();
+                teacher = businessLayer.GetTeacherById(id);
+
+                if(teacher == null)
+                {
+                    Console.WriteLine("Teacher does not exist.");
+                }
+                else
+                {
+                    //create course
+                    Course course = new Course()
+                    {
+                        CourseName = courseName,
+                        TeacherId = teacher.TeacherId,
+                        EntityState = EntityState.Added
+                    };
+
+                    //add course to teacher
+                    teacher.EntityState = EntityState.Modified;
+                    foreach (Course c in teacher.Courses)
+                        c.EntityState = EntityState.Unchanged;
+                    teacher.Courses.Add(course);
+                    businessLayer.UpdateTeacher(teacher);
+                    Console.WriteLine("{0} has been added to the database.", courseName);
+                }
+            }
+            else
             {
                 //create course
                 Course course = new Course()
                 {
                     CourseName = courseName,
-                    TeacherId = teacher.TeacherId,
                     EntityState = EntityState.Added
                 };
-
-                //add course to teacher
-                teacher.EntityState = EntityState.Modified;
-                foreach (Course c in teacher.Courses)
-                    c.EntityState = EntityState.Unchanged;
-                teacher.Courses.Add(course);
-                businessLayer.UpdateTeacher(teacher);
+                businessLayer.AddCourse(course);
                 Console.WriteLine("{0} has been added to the database.", courseName);
             }
-            else
-            {
-                Console.WriteLine("Teacher does not exist.");
-            };
         }
 
         /// <summary>
@@ -345,6 +375,93 @@ namespace ConsoleClient
             IList<Course> courses = businessLayer.GetAllCourses();
             foreach (Course course in courses)
                 Console.WriteLine("Course ID: {0}, Name: {1}", course.CourseId, course.CourseName);
+        }
+
+        public static void addCourseToTeacher(Course course = null)
+        {
+            int id;
+            if (course == null)
+            {
+                listCourses();
+                id = Validator.getId();
+                course = businessLayer.GetCourseById(id);
+            }
+
+            if(course != null)
+            {
+                listTeachers();
+                id = Validator.getId();
+                Teacher teacher = businessLayer.GetTeacherById(id);
+                if (teacher != null)
+                {
+                    course.EntityState = EntityState.Modified;
+                    course.TeacherId = teacher.TeacherId;
+                    businessLayer.UpdateCourse(course);
+
+                    //add course to teacher
+                    teacher.EntityState = EntityState.Modified;
+                    foreach (Course c in teacher.Courses)
+                        c.EntityState = EntityState.Unchanged;
+                    teacher.Courses.Add(course);
+                    businessLayer.UpdateTeacher(teacher);
+                    Console.WriteLine("Course {0} has been added to {1}.", course.CourseId, teacher.TeacherId);
+                }
+                else
+                {
+                    Console.WriteLine("Teacher does not exist.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Course does not exist.");
+            }
+        }
+
+        public static void moveCourse()
+        {
+            listTeachers();
+            int id = Validator.getId();
+            Teacher teacher = businessLayer.GetTeacherById(id);
+            if (teacher != null)
+            {
+                ICollection<Course> courses = teacher.Courses;
+                foreach (Course course in courses)
+                {
+                    Console.WriteLine("Course ID: {0}, Name: {1}", course.CourseId, course.CourseName);
+                }
+
+                if (courses.Count > 0)
+                {
+                    int id1 = Validator.getId();
+                    Course course1 = businessLayer.GetCourseById(id1);
+                    if (course1 != null)
+                    {
+                        course1.Teacher = null;
+                        course1.TeacherId = null;
+                        teacher.Courses.Remove(course1);
+                        foreach (Course c in teacher.Courses)
+                            c.EntityState = EntityState.Unchanged;
+                        teacher.EntityState = EntityState.Modified;
+                        course1.EntityState = EntityState.Modified;
+                        businessLayer.UpdateCourse(course1);
+                        businessLayer.UpdateTeacher(teacher);
+
+                        addCourseToTeacher(course1);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Course does not exist.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Teacher has no courses.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Teacher does not exist.");
+            }
         }
     }
 }

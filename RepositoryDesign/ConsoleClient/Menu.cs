@@ -18,6 +18,8 @@ namespace ConsoleClient
             Console.WriteLine("7.) Update course");
             Console.WriteLine("8.) Delete course");
             Console.WriteLine("9.) list courses");
+            Console.WriteLine("10.) Add course to teacher");
+            Console.WriteLine("11.) Move course to another teacher");
             Console.WriteLine("0.) quit");
         }
 
@@ -41,6 +43,16 @@ namespace ConsoleClient
             {
                 Console.WriteLine("3.) Find by Teacher ID");
             }
+        }
+
+        public static void includeTeacher()
+        {
+            Console.WriteLine("Would you like to give this course a teacher?(y/n)");
+        }
+
+        public static void newTeacher()
+        {
+            Console.WriteLine("Will it be a new teacher?(y/n)");
         }
     }
 }
