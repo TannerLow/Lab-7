@@ -43,3 +43,4 @@ C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\Do
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
