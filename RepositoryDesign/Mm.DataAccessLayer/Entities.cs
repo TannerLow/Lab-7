@@ -6,6 +6,9 @@
 
     public partial class Entities : DbContext
     {
+        /// <summary>
+        /// Define Entity properties
+        /// </summary>
         public Entities()
             : base("name=SchoolDBEntities")
         {

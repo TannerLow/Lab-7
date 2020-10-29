@@ -28,3 +28,18 @@ C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.DataAccessLayer\obj\D
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.dll
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB.mdf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\SchoolDB_log.ldf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\Mm.DataAccessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\DomainModel.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.DataAccessLayer\obj\Debug\Mm.DataAccessLayer.pdb

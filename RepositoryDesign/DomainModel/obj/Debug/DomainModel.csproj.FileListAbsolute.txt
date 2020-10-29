@@ -44,3 +44,13 @@ C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\Do
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\bin\Debug\DomainModel.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\bin\Debug\EntityFramework.xml
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csprojAssemblyReference.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.csproj.CopyComplete
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\DomainModel\obj\Debug\DomainModel.pdb

@@ -44,12 +44,16 @@ namespace ConsoleClient
                 Console.WriteLine("3.) Find by Teacher ID");
             }
         }
-
+        /// <summary>
+        /// Display a prompt to add selected course to a teacher
+        /// </summary>
         public static void includeTeacher()
         {
             Console.WriteLine("Would you like to give this course a teacher?(y/n)");
         }
-
+        /// <summary>
+        /// Display a prompt to determine if the selection will be a new teacher
+        /// </summary>
         public static void newTeacher()
         {
             Console.WriteLine("Will it be a new teacher?(y/n)");

@@ -10,6 +10,11 @@ namespace DataAccessLayer
 {
     public class GenericDataRepository<T> : IGenericDataRepository<T> where T : class, IEntity
     {
+        /// <summary>
+        /// Gets all objects in that Entity class
+        /// </summary>
+        /// <param name="navigationProperties"></param>
+        /// <returns></returns>
         public virtual IList<T> GetAll(params Expression<Func<T, object>>[] navigationProperties)
         {
             List<T> list;
@@ -27,7 +32,12 @@ namespace DataAccessLayer
             }
             return list;
         }
-
+        /// <summary>
+        /// Get list of objects in an entity class
+        /// </summary>
+        /// <param name="where"></param>
+        /// <param name="navigationProperties"></param>
+        /// <returns></returns>
         public virtual IList<T> GetList(Func<T, bool> where,
              params Expression<Func<T, object>>[] navigationProperties)
         {
@@ -47,7 +57,12 @@ namespace DataAccessLayer
             }
             return list;
         }
-
+        /// <summary>
+        /// Get single object in an entity class
+        /// </summary>
+        /// <param name="where"></param>
+        /// <param name="navigationProperties"></param>
+        /// <returns></returns>
         public virtual T GetSingle(Func<T, bool> where,
              params Expression<Func<T, object>>[] navigationProperties)
         {
@@ -66,12 +81,18 @@ namespace DataAccessLayer
             }
             return item;
         }
-
+        /// <summary>
+        /// Add to db
+        /// </summary>
+        /// <param name="items"></param>
         public virtual void Add(params T[] items)
         {
             Update(items);
         }
-        
+        /// <summary>
+        /// Update DB
+        /// </summary>
+        /// <param name="items"></param>
         public virtual void Update(params T[] items)
         {
             using (var context = new Entities())
@@ -89,12 +110,19 @@ namespace DataAccessLayer
                 context.SaveChanges();
             }
         }
-
+        /// <summary>
+        /// Remove DB
+        /// </summary>
+        /// <param name="items"></param>
         public virtual void Remove(params T[] items)
         {
             Update(items);
         }
-
+        /// <summary>
+        /// Update the Entity State based on the state of the Domain Model
+        /// </summary>
+        /// <param name="entityState"></param>
+        /// <returns></returns>
         protected static System.Data.EntityState GetEntityState(DomainModel.EntityState entityState)
         {
             switch (entityState)

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 
 namespace BusinessLayer
-{
+{   /// <summary>
+/// Business Layer Interface 
+/// </summary>
     public interface IBusinessLayer
     {
         IList<Teacher> GetAllTeachers();

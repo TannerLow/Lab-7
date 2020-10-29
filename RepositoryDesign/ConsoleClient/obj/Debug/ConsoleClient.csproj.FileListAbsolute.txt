@@ -94,3 +94,23 @@ C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.pdb
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB.mdf
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB_log.ldf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB.mdf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\SchoolDB_log.ldf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.exe.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.exe
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\ConsoleClient.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.BusinessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\DomainModel.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.BusinessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\Mm.DataAccessLayer.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\bin\Debug\EntityFramework.xml
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csprojAssemblyReference.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csproj.CoreCompileInputs.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.csproj.CopyComplete
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.exe
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\ConsoleClient\obj\Debug\ConsoleClient.pdb

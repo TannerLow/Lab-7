@@ -7,6 +7,7 @@ namespace ConsoleClient
 {
     class Program
     {
+        // Create a new business layer
         private static IBusinessLayer businessLayer = new BuinessLayer();
 
         static void Main(string[] args)
@@ -376,17 +377,21 @@ namespace ConsoleClient
             foreach (Course course in courses)
                 Console.WriteLine("Course ID: {0}, Name: {1}", course.CourseId, course.CourseName);
         }
-
+        /// <summary>
+        /// Adds a course to an existing teacher
+        /// </summary>
+        /// <param name="course">Course to be added</param>
         public static void addCourseToTeacher(Course course = null)
         {
             int id;
+            // Select a correct course
             if (course == null)
             {
                 listCourses();
                 id = Validator.getId();
                 course = businessLayer.GetCourseById(id);
             }
-
+            // Assign selected course to teacher
             if(course != null)
             {
                 listTeachers();
@@ -416,20 +421,25 @@ namespace ConsoleClient
                 Console.WriteLine("Course does not exist.");
             }
         }
-
+        /// <summary>
+        /// Moves course from one teacher to another
+        /// </summary>
         public static void moveCourse()
         {
             listTeachers();
+            // Select a teacher in order to select a course
             int id = Validator.getId();
             Teacher teacher = businessLayer.GetTeacherById(id);
             if (teacher != null)
             {
                 ICollection<Course> courses = teacher.Courses;
+                // Display the courses that the selected teacher teaches
                 foreach (Course course in courses)
                 {
                     Console.WriteLine("Course ID: {0}, Name: {1}", course.CourseId, course.CourseName);
                 }
-
+                // If the teacher teaches at least one course, allow for a selection of a course
+                // Remove the current relation between the selected course and the currently selected teacher
                 if (courses.Count > 0)
                 {
                     int id1 = Validator.getId();
@@ -445,7 +455,7 @@ namespace ConsoleClient
                         course1.EntityState = EntityState.Modified;
                         businessLayer.UpdateCourse(course1);
                         businessLayer.UpdateTeacher(teacher);
-
+                        // Move course to new teacher
                         addCourseToTeacher(course1);
                     }
                     else

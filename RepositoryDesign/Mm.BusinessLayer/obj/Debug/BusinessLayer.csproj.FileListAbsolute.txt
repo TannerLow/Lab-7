@@ -32,3 +32,20 @@ C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.BusinessLayer\obj\Deb
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\Mm.BusinessLayer.dll
 C:\Users\Tanner\Documents\Github\Lab-7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\Mm.BusinessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\SchoolDB.mdf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\SchoolDB_log.ldf
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\Mm.BusinessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\Mm.BusinessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\DomainModel.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\Mm.DataAccessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\EntityFramework.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\DomainModel.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\DomainModel.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\Mm.DataAccessLayer.pdb
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\Mm.DataAccessLayer.dll.config
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\bin\Debug\EntityFramework.xml
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\Mm.BusinessLayer.dll
+D:\Users\jda_1\OneDrive\Desktop\CECS 475\repos\Lab Assignment 7\RepositoryDesign\Mm.BusinessLayer\obj\Debug\Mm.BusinessLayer.pdb
